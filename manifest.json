@@ -1,1 +1,6 @@
-
+{
+  "name": "Paywall-Nowall",
+  "description": "Remove Paywalls",
+  "version": "1.0",
+  "manifest_version": 3
+}
