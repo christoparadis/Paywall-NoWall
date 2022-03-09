@@ -1,6 +1,9 @@
 {
-  "name": "Paywall-Nowall",
-  "description": "Remove Paywalls",
-  "version": "1.0",
-  "manifest_version": 3
+	"name": "Paywall-Nowall",
+	"description": "Remove Paywalls",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	}
 }
