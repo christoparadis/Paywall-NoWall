@@ -3,9 +3,17 @@
 	"description": "Remove Paywalls",
 	"version": "1.0",
 	"manifest_version": 3,
-	"background_page": "popup.hmtl",
 	"permissions": ["storage", "tabs"],
-	"browser_action": {
-		"default_icon": "icon.png"
+
+	"background": {
+		"service_worker": "popup.js"
+	},
+
+	"action": {
+		"default_icon": {
+			"16": "/img/ladder_16.png",
+			"24": "/img/ladder_24.png",
+			"32": "/img/ladder_32.png"
+		}
 	}
 }
